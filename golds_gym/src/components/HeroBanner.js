@@ -3,7 +3,11 @@ import { Box, Stack, Typography } from '@mui/material';
 
 const HeroBanner = () => {
   return (
-    <div>HeroBanner</div>
+    <Box>
+      <Typography>
+        Fitness Club
+      </Typography>
+    </Box>
   )
 }
 
