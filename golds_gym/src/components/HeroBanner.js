@@ -1,6 +1,8 @@
 import React from 'react'
 import { Box, Stack, Typography, Button } from '@mui/material';
 
+import HeroBannerImage from '../assets/images/banner.png';
+
 const HeroBanner = () => {
   return (
     <Box sx={{
@@ -22,6 +24,7 @@ const HeroBanner = () => {
       </Typography>
       <Button variant="contained"
       color="error" href="#exercises">Explore Exercises</Button>
+      <img src={HeroBannerImage} alt="banner" className="hero-banner-im???" />
     </Box>
   )
 }
