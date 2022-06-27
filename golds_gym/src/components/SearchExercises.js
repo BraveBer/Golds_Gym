@@ -13,6 +13,17 @@ const SearchExercises = () => {
       </Typography>
       <Box>
         <TextField 
+          sx={{
+            input: {
+              fontWeight: '700',
+              border: 'none',
+              borderRadius: '4px'
+            },
+            width: { lg: '1170px', xs: '350px'}
+            ,
+            backgroundColor: '#fff',
+            borderRadius: '40px'
+          }}
           height="76px"
           value=""
           onChange={(e) => {}}
