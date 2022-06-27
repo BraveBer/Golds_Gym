@@ -20,7 +20,8 @@ const HeroBanner = () => {
       LineHeight="35px">
         Check out the most effective exercises
       </Typography>
-      <Button>Explore Exercises</Button>
+      <Button variant="contained"
+      color="error">Explore Exercises</Button>
     </Box>
   )
 }
