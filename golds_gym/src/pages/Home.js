@@ -5,7 +5,7 @@ import Exercises from '../components/Exercises';
 import SearchExercises from '../components/SearchExercises';
 import HeroBanner from '../components/HeroBanner';
 
-const home = () => {
+const Home = () => {
   const [exercises, setExercises] = useState([]);
   const [bodyPart, setBodyPart] = useState('all');
   
