@@ -6,7 +6,7 @@ import BodyPart from './BodyPart';
 
 const HorizontalScrollbar = ({ data, bodyPart, setBodyPart }) => {
   return (
-    <div>
+    <ScrollMenu>
       {data.map((item) => (
           <Box
             key={item.id || item}
@@ -18,7 +18,7 @@ const HorizontalScrollbar = ({ data, bodyPart, setBodyPart }) => {
           </Box>
         )
       )}
-    </div>
+    </ScrollMenu>
   )
 }
 
