@@ -1,8 +1,8 @@
+// Made with ❤️ by JavaScript Mastery
+
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 import Logo from '../assets/images/Logo-1.png';
-
-// Made with ❤️ by JavaScript Mastery
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#FFF3F4">
