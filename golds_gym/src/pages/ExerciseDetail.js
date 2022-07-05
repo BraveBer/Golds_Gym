@@ -32,7 +32,7 @@ const ExerciseDetail = () => {
   return (
     <Box>
       <Detail exerciseDetail={exerciseDetail} />
-      <ExerciseVideos exerciseVideos={exerciseVideos} ame={exerciseDetail.name} />
+      <ExerciseVideos exerciseVideos={exerciseVideos} name={exerciseDetail.name} />
       <SimilarExercises />
     </Box>
   )
